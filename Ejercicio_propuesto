@@ -1,10 +1,10 @@
-Num1= int(input("ingrese el primer numero entero:"))
-Num2= int(input("ingrese el segundo numero entero:"))
-Num3= int(input("ingrese el tercer numero entero:"))
-if Num1 > Num2 and Num1 > Num3:
-    print("El primer numero es el mayor:", Num1)
-elif Num2 > Num1 and Num2 > Num3:
-    print("El segundo numero es el mayor:", Num2)
+num1= int(input("Ingrese primer número: "))
+num2= int(input("Ingrese segundo número: "))
+num3= int(input("Ingrese tercer número: "))
+if num1== num2 and num2 == num3: 
+  print("Los tres números son iguales")
+elif num1== num2 or num1 == num3 or num2 == num3:
+  print("Hay dos números iguales y uno diferente")
 else:
     print("El tercer numero es el mayor:", Num3)
 if Num1 < Num2 and Num1 < Num3:
