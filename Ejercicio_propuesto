@@ -1,1 +1,2 @@
-print ("hello")
+A= int(input("Ingrese primer número: "))
+B = int(input("Ingrese segundo número: "))
