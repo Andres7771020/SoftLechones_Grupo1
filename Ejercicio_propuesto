@@ -1,1 +1,3 @@
-print ("hello")
+Num= int(input("ingrese un numero entero:"))
+
+print(Num)
