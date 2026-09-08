@@ -1,5 +1,19 @@
-if Num1 >= 1 and Num2 >= 1 and Num3 >= 1:
-    print("Es positivo")
+Num1= int(input("ingrese el primer numero entero:"))
+Num2= int(input("ingrese el segundo numero entero:"))
+Num3= int(input("ingrese el tercer numero entero:"))
+if Num1 > Num2 and Num1 > Num3:
+    print("El primer numero es el mayor:", Num1)
+elif Num2 > Num1 and Num2 > Num3:
+    print("El segundo numero es el mayor:", Num2)
 else:
-    print("Es Negativo")
-
+    print("El tercer numero es el mayor:", Num3)
+if Num1 < Num2 and Num1 < Num3:
+    print("El primer numero es el menor:", Num1)
+elif Num2 < Num1 and Num2 < Num3:
+    print("El segundo numero es el menor:", Num2)
+else:
+    print("El tercer numero es el menor:", Num3)
+if num1 >= 1 and num2 >= 1 and num3 >= 1:
+    print ("Es positivo")
+else:
+    print ("Es Negativo")
