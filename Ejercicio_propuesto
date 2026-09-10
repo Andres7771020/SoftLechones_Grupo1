@@ -6,11 +6,11 @@ if num1== num2 and num2 == num3:
 elif num1== num2 or num1 == num3 or num2 == num3:
   print("Hay dos números iguales y uno diferente")
 else:
-    print("El tercer numero es el mayor:", Num3)
-if Num1 < Num2 and Num1 < Num3:
-    print("El primer numero es el menor:", Num1)
-elif Num2 < Num1 and Num2 < Num3:
-    print("El segundo numero es el menor:", Num2)
+    print("El tercer numero es el mayor:", num3)
+if num1 < num2 and num1 < num3:
+    print("El primer numero es el menor:", num1)
+elif num2 < num1 and num2 < num3:
+    print("El segundo numero es el menor:", num2)
 else:
     print("El tercer numero es el menor:", Num3)
 if num1 >= 1 and num2 >= 1 and num3 >= 1:
