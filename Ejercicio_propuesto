@@ -1,3 +1,7 @@
+#Ejercicio: Taller
+#Por: Danna Sofia Vargas, Cristian Calapsus Gonzalez, Andres Mauricio Bahamon.
+#Servicio Nacional de Aprendizaje SENA.
+#Scrip que determina el mayor de 3 numeros que se ingresan -> Se dedeben ingresar 3 numeros enteros, el sistema debe ordenarlos de mayor, intermedio y menor, distinguir si los numeros son positivos o negativos. 
 num1= int(input("Ingrese primer número: "))
 num2= int(input("Ingrese segundo número: "))
 num3= int(input("Ingrese tercer número: "))
@@ -15,7 +19,7 @@ else:
         print("El segundo numero es el menor:", num2)
     else:
         print("El tercer numero es el menor:", num3)
-if num1 >= 1 and num2 >= 1 and num3 >= 1:
+if num1 >= 1:
     print ("Es positivo")
 else:
     print ("Es Negativo")
