@@ -12,3 +12,14 @@ else:
         print("Hay dos números iguales y uno diferente.")
     else:
         print("Hay dos números iguales y uno diferente.")
+    print("El tercer numero es el mayor:", num3)
+if num1 < num2 and num1 < num3:
+    print("El primer numero es el menor:", num1)
+elif num2 < num1 and num2 < num3:
+    print("El segundo numero es el menor:", num2)
+else:
+    print("El tercer numero es el menor:", Num3)
+if num1 >= 1 and num2 >= 1 and num3 >= 1:
+    print ("Es positivo")
+else:
+    print ("Es Negativo")
