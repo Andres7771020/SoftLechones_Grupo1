@@ -8,13 +8,31 @@ else:
         print("Hay dos números iguales y uno diferente")
     else:
         print("Los tres números son diferentes")
-if num1 < num2 and num1 < num3:
-    print("El primer numero es el menor:", num1)
-else:
-    if num2 < num1 and num2 < num3:
-        print("El segundo numero es el menor:", num2)
+if num1 >= num2 and num1 >= num3:
+    print("El mayor es: ", num1)
+    if num2 >= num3:
+        print("El del medio es: ", num2)
+        print("El menor es: ", num3)
     else:
-        print("El tercer numero es el menor:", num3)
+        print("El del medio es: ", num3)
+        print("El menor es: ", num2)
+
+if num2 >= num1 and num2 >= num3:
+    print("El mayor es: ", num2)
+    if num1 >= num3:
+        print("El del medio es: ", num1)
+        print("El menor es: ", num3)
+    else:
+        print("El del medio es: ", num3)
+        print("El menor es: ", num1)
+else:
+    print("El mayor es: ", num3)
+    if num1 >= num2:
+        print("El del medio es: ", num1)
+        print("El menor es: ", num2)
+    else:
+        print("El del medio es: ", num2)
+        print("El menor es: ", num1)
 if num1 >= 1 and num2 >= 1 and num3 >= 1:
     print ("Es positivo")
 else:
