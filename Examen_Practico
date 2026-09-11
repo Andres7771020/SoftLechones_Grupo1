@@ -1,0 +1,20 @@
+#Examen practico:
+#por: Andres Mauricio Bahamon
+#Servicio Nacional de Aprendizaje SENA
+#Svript para calcular las areas de un cuadro, circulo, rectangulo, triangulo.
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+
+radio = (input("Ingrese el radio del círculo: "))
+area = 3.1416 * radio * radio
+
+base = (input("Ingrese la base del triángulo: "))
+altura = (input("Ingrese la altura del triángulo: "))
+area = (base * altura) / 2
+
+lado = (input("Ingrese el lado del cuadrado: "))
+area = lado * lado
+
+base = (input("Ingrese la base del rectángulo: "))
+altura = (input("Ingrese la altura del rectángulo: "))
+area = base * altura
