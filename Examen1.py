@@ -1,11 +1,18 @@
+#Examen 1
+#Por: Cristian Calapsu Gonzalez
+#Servicio Nacional de Aprendizaje SENA
+#Script Calculadora Geometrica
+#Se definen variables para nombre y apellido, y las cuales se pueden modificar, tambien se define una variable para las figuras
 Nom= (input("ingrese su nombre: "))
 Ape= (input("ingrese su apellido: "))
 Figura= input("ingrese su figura geometrica: ")
+#if sirve para hacer cumplir algo si se cumple con la condicion
 if Figura == "cuadrado":
     Lado1 = float(input("ingrese el valor del lado1: "))
     Lado2 = float(input("ingrese el valor del lado2: "))
     Fc= Lado1 * Lado2
     print("el area del cuadrado es: ", Fc) 
+#else se utiliza si no se cumple la condicion del if
 else:
     if Figura == "circulo": 
         Pi= 3.1416
@@ -25,6 +32,7 @@ else:
         print("el area del triangulo es: ", Fat)
 print("El estudiante: ", Nom, "", Ape, "ha calculado el area de:", Figura)
 continuar= input("desea calcular otra area? (si/no): ")
+#se utiliza un while para que el programa se repita mientras la condicion sea verdadera
 while continuar == "si":
     Figura= input("ingrese su figura geometrica: ")
     if Figura == "cuadrado":
